@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-02T17:07:13 EET" name="Suite" finished-at="2024-03-02T17:07:22 EET" duration-ms="9636">
+    <groups>
+    </groups>
+    <test started-at="2024-03-02T17:07:13 EET" name="Test" finished-at="2024-03-02T17:07:22 EET" duration-ms="9636">
+      <class name="Test.RegisterationWithDataFaker">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:Test.RegisterationWithDataFaker@39dee5fd]" started-at="2024-03-02T17:07:04 EET" name="startDriver" finished-at="2024-03-02T17:07:13 EET" duration-ms="8610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="UserCanRegisterSuccssfully()[pri:1, instance:Test.RegisterationWithDataFaker@39dee5fd]" started-at="2024-03-02T17:07:13 EET" name="UserCanRegisterSuccssfully" finished-at="2024-03-02T17:07:17 EET" duration-ms="4184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccssfully -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Test.RegisterationWithDataFaker@39dee5fd]" started-at="2024-03-02T17:07:17 EET" name="screenshotOnFailure" finished-at="2024-03-02T17:07:17 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegisterSuccssfully status=SUCCESS method=RegisterationWithDataFaker.UserCanRegisterSuccssfully()[pri:1, instance:Test.RegisterationWithDataFaker@39dee5fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="RegisteredUserCanLogout()[pri:0, instance:Test.RegisterationWithDataFaker@39dee5fd]" started-at="2024-03-02T17:07:17 EET" name="RegisteredUserCanLogout" finished-at="2024-03-02T17:07:22 EET" depends-on-methods="Test.RegisterationWithDataFaker.UserCanRegisterSuccssfully" duration-ms="5419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Test.RegisterationWithDataFaker@39dee5fd]" started-at="2024-03-02T17:07:22 EET" name="screenshotOnFailure" finished-at="2024-03-02T17:07:22 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisteredUserCanLogout status=SUCCESS method=RegisterationWithDataFaker.RegisteredUserCanLogout()[pri:0, instance:Test.RegisterationWithDataFaker@39dee5fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Test.RegisterationWithDataFaker@39dee5fd]" started-at="2024-03-02T17:07:23 EET" name="stopDriver" finished-at="2024-03-02T17:07:23 EET" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Test.RegisterationWithDataFaker -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
